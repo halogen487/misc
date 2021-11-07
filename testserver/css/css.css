@@ -1,0 +1,11 @@
+body {
+	display: flex;
+	text-align: center;
+	flex-flow: column;
+	justify-content: center;
+	height: 100%;
+	font-style: serif;
+}
+.lorge {
+	font-size: 8vw;
+}
