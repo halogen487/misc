@@ -1,6 +1,6 @@
 # misc
 
-Assorted, mostly impractical code from learning Python, HTML/CSS, Javascript, and a bit of Haskell
+Assorted, mostly impractical code from learning Python, HTML/CSS, Javascript, and a couple shell scripts.
 
 - `testserver` is a basic node.js web server
 - `blog` renders text files with a templating engine
