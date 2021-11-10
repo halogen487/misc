@@ -1,0 +1,83 @@
+/*typography*/
+head {
+	display: block;
+}
+body {
+	font-family: sans-serif;
+	background: #fafafa;
+	margin: 0px;
+}
+h1, h2, h3, h4 {
+	margin: 1ch;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.3em;
+}
+h4 {
+	font-size: 1em;
+	font-style: italic;
+}
+hr {
+	border: 1px solid #cbcbcb;
+}
+a {
+	text-decoration: none;
+	color: #a60000;
+}
+a:hover {
+	text-decoration: underline 2px;
+}
+code {
+	background: #e5e5e5;
+	font-size: 1.2em;
+	padding: 4px;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 2px var(--shadow-color);
+}
+/*heading*/
+header {
+	text-align: center;
+}
+/*content*/
+main {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+article.game {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	box-shadow: 0px 0px 8px #cccccc;
+	margin: 32px;
+	padding: 16px;
+	border-radius: 16px;
+}
+.score {
+	font-size: 4em;
+	margin: 1ch;
+	font-family: monospace;
+}
+#stage {
+	position: relative;
+	width: 768px;
+	height: 768px;
+}
+canvas {
+	box-shadow: 0px 0px 8px #606060 inset;
+	border-radius: 16px;
+	position: absolute;
+}
+#game-canvas {
+	background: #0000FF;
+	z-index: 1;
+}
+#ui-canvas {
+	z-index: 2;
+}

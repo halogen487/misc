@@ -1,0 +1,38 @@
+{
+	"articles": [
+		{
+			"mod": "clock",
+			"config": {
+				"visible": true,
+				"refresh": 1000,
+				"year": true,
+				"month": true,
+				"day": true,
+				"hour": true,
+				"minute": true,
+				"second": true
+			}
+		},
+		{
+			"mod": "clock",
+			"config": {
+				"visible": true,
+				"refresh": 1000,
+				"year": false,
+				"month": true,
+				"day": true,
+				"hour": true,
+				"minute": true,
+				"second": false
+			}
+		},
+		{
+			"mod": "calendar",
+			"config": {
+				"visible": true,
+				"refresh": 10000,
+				"url": "https://outlook.office365.com/owa/calendar/1049936839994e74b299ae1fcb8992c0@sandon.essex.sch.uk/f502ef7b980a4015beee16827083bdeb5762497332790340243/calendar.ics"
+			}
+		}
+	]
+}
